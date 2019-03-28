@@ -1,5 +1,6 @@
 body {
     padding-top: 3.5rem;
+    background-image: url('./bk.jpg');
   }
 
   .thumbnail {
@@ -12,13 +13,13 @@ body {
 
 html,body,head {
    
-    background-color:#312d28;
-background-image:radial-gradient(-87deg, #FFCD05 0%,rgba(255, 255, 255, 0.651) 49%,rgba(255,255,255,0.03) 50%,rgba(0,0,0,0) 51%,rgba(0, 0, 0, 0.253) 100%);;
+    
+    background-image: url('./bk.jpg');
 }
 
 
 ul {
-    background-color: #FFCD05;
+    background-color: rgba(255, 205, 5, 0.356);
     
 }
 
