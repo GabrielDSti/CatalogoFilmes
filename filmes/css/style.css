@@ -1,0 +1,32 @@
+body {
+    padding-top: 3.5rem;
+  }
+
+  .thumbnail {
+      heigth: 360px;
+      text-align: center
+  }
+  .thumbnail img{
+      height: 230px;
+  }
+
+html,body,head {
+   
+    background-color:#312d28;
+background-image:radial-gradient(-87deg, #FFCD05 0%,rgba(255, 255, 255, 0.651) 49%,rgba(255,255,255,0.03) 50%,rgba(0,0,0,0) 51%,rgba(0, 0, 0, 0.253) 100%);;
+}
+
+
+ul {
+    background-color: #FFCD05;
+    
+}
+
+title,h2 {
+    text-align: center;
+ 
+}
+strong {
+    text-align: center;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Filmes</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+       
+        
+        
+    </head>
+    <body >
+         <div class="container" >
+            <div class="header clearfix"></div>
+            <h2><strong>Buscar Filmes</strong></h2>
+            <div class="jumbotron" style="background-color:#FFCD05">
+                <div class="col-lg-12" style="background-color:#FFCD05">
+                    <form class="input-group" id="formulario">
+                        <input type="text" name="" class="form-control" id="pesquisar" placeholder="Digite o nome do filme, ex: Thor,Naruto,Jesus...">
+                        <span class="input-group-btn">
+                          <button class="btn btn-primary" type="submit" >Buscar</button>  
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul>
+                
+            <div class="row" id="filmes"></div>
+            </ul>
+        </div>
+
+        <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+              <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+              <script src="js/main.js"></script>
+    </body>
+</html>
